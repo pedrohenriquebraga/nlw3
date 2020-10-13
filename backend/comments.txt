@@ -1,0 +1,29 @@
+// Rota = Conjunto
+// Recurso = Usuário
+// Métodos HTTP = GET, POST, PUT, DELETE
+// Parâmetros
+
+// GET = Buscar informação
+// POST = Criar informação
+// PUT = Editar informação
+// DELETE = Apagar informação
+
+// Parâmetros:
+
+// Query Params = http://localhost:3333/user?search=diego
+// Route Params: http://localhost:3333/users/1 (identificar um recurso por rota)
+// Body: http://localhost:3333/users
+
+// console.log(req.query)
+// console.log(req.params)
+// console.log(req.body)
+
+{
+	"name": "Lar das Meninas",
+	"latitude": -16.6771747,
+	"longitude": 49.12463,
+	"about": "Sobre o Orfanato",
+	"instructions": "Venha visitar agora",
+	"opening_hours": "Das 8h até 18h",
+	"open_on_weekends": true
+}
