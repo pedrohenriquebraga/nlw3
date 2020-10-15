@@ -12,3 +12,10 @@ Foram usadas essa tecnologias:
 - [Yarn](https://yarnpkg.com/)
 
 *Foram usados outros Frameworks no projeto, mas esses são os principais.*
+
+## ⚙️ Como usar o código?
+1. Instale o Yarn em seu computador
+1. Instale o NodeJs na versão >= 12.0
+1. Clone este repositório `git clone https://github.com/pedrohenriquebraga/nlw3.git`
+1. Acesse a pasta *web* e dê o comando `yarn start`
+1. Faça o mesmo processo na pasta *backend* com o comando `yarn dev`
