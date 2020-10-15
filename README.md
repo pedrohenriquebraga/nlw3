@@ -19,3 +19,4 @@ Foram usadas essa tecnologias:
 1. Clone este repositório `git clone https://github.com/pedrohenriquebraga/nlw3.git`
 1. Acesse a pasta *web* e dê o comando `yarn start`
 1. Faça o mesmo processo na pasta *backend* com o comando `yarn dev`
+1. Acesse em seu navegador a seguinte url `http://localhost:3000`
