@@ -20,3 +20,11 @@ Foram usadas essa tecnologias:
 1. Acesse a pasta *web* e dê o comando `yarn start`
 1. Faça o mesmo processo na pasta *backend* com o comando `yarn dev`
 1. Acesse em seu navegador a seguinte url `http://localhost:3000`
+
+## 🔜 Progresso do evento
+
+- [x] **Dia 1:** Criar página inicial e de listagem e também criar rotas da aplicação.
+- [x] **Dia 2:** Criando backend e banco de dados.
+- [x] **Dia 3:** Criando página de cadastro de orfanatos e finalizando projeto web.
+- [ ] *Em breve!*
+- [ ] *Em breve!*
