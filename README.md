@@ -26,5 +26,5 @@ Foram usadas essa tecnologias:
 - [x] **Dia 1:** Criar página inicial e de listagem e também criar rotas da aplicação.
 - [x] **Dia 2:** Criando backend e banco de dados.
 - [x] **Dia 3:** Criando página de cadastro de orfanatos e finalizando projeto web.
-- [ ] *"Dia 4:** Iniciando Mobile App com mapa e rotas com React Native e Expo.
+- [x] *"Dia 4:** Iniciando Mobile App com mapa e rotas com React Native e Expo.
 - [ ] *Em breve!*
