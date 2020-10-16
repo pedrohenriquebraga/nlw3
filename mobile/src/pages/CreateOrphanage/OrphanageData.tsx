@@ -36,7 +36,6 @@ export default function OrphanageData() {
   const params = route.params as OrphanageDataRouteParams;
 
   async function handleCreateOrphanage() {
-    console.log(name, about, instructions, opening_hours, open_on_weekends);
 
     const data = new FormData();
 
