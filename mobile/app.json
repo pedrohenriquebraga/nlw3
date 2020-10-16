@@ -4,7 +4,7 @@
     "slug": "happy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/images/map-marker.png",
+    "icon": "./src/images/happy-icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,6 +21,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "happy.apk"
     }
   }
 }
