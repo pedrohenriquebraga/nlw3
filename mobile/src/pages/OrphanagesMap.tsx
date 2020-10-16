@@ -44,35 +44,35 @@ export default function OrphanagesMap() {
                 }}
             >
                 {
-                orphanages.map(orphanage => {
-                    return (
-                        <Marker
-                            key={orphanage.id}
-                            icon={mapMarker}
-                            coordinate={{
-                                latitude: orphanage.latitude,
-                                longitude: orphanage.longitude
-                            }}
-                            calloutAnchor={{
-                                x: 2.7,
-                                y: 0.8,
-                            }}
-                        >
-                            <Callout
-                                tooltip
-                                onPress={ () => handleNavigateToOrphanageDetails(orphanage.id)} >
-                                <View style={styles.calloutContainer}>
-                                    <Text style={styles.calloutText}>{orphanage.name}</Text>
-                                </View>
-                            </Callout>
-                        </Marker>
-                    )
-                })
+                    orphanages.map(orphanage => {
+                        return (
+                            <Marker
+                                key={orphanage.id}
+                                icon={mapMarker}
+                                coordinate={{
+                                    latitude: orphanage.latitude,
+                                    longitude: orphanage.longitude
+                                }}
+                                calloutAnchor={{
+                                    x: 2.7,
+                                    y: 0.8,
+                                }}
+                            >
+                                <Callout
+                                    tooltip
+                                    onPress={() => handleNavigateToOrphanageDetails(orphanage.id)} >
+                                    <View style={styles.calloutContainer}>
+                                        <Text style={styles.calloutText}>{orphanage.name}</Text>
+                                    </View>
+                                </Callout>
+                            </Marker>
+                        )
+                    })
                 }
             </MapView>
 
             <View style={styles.footer}>
-                <Text style={styles.footerText}> { orphanages.length} Orfanatos encontrados</Text>
+                <Text style={styles.footerText}> {orphanages.length} Orfanatos encontrados</Text>
 
                 <RectButton style={styles.createOrphanageButton} onPress={handleNavigateToCreateOrphanage}>
                     <Feather name="plus" size={20} color="#fff" />
