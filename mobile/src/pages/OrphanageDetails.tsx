@@ -15,6 +15,7 @@ import { useRoute } from "@react-navigation/native";
 import mapMarkerImg from "../images/map-marker.png";
 import { RectButton, TouchableOpacity } from "react-native-gesture-handler";
 import api from "../services/api";
+import Loading from "../components/loading";
 
 interface OrphanageDetailsRouteParams {
   id: number;
@@ -49,9 +50,7 @@ export default function OrphanageDetails() {
 
   if (!Orphanage) {
     return (
-      <View style={styles.container}>
-        <Text style={styles.description}>Carregando...</Text>
-      </View>
+      <Loading />
     );
   }
 
