@@ -15,6 +15,8 @@ Foram usadas essa tecnologias:
 *Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
 ## ⚙️ Como usar o código?
+
+### Web
 1. Instale o **Yarn** em seu computador
 1. Instale o **NodeJs** na versão >= 12.0
 1. Clone este repositório `git clone https://github.com/pedrohenriquebraga/nlw3.git`
