@@ -4,11 +4,11 @@
     "slug": "happy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/images/happy-icon.png",
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FF08C3C5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
