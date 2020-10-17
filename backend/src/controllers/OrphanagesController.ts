@@ -4,13 +4,14 @@ import orphanageView from '../views/orphanages_view'
 import * as Yup from 'yup'
 
 import { getRepository } from "typeorm"
+import Orphanages from '../models/Orphanage'
 
 export default {
 
     async show(req: Request, res: Response) {
 
         const { id } = req.params
-        const orphanagesRepository = getRepository(Orphanage)
+        const orphanagesRepository = getRepository(Orphanages)
 
         const orphanage = await orphanagesRepository.findOneOrFail(id, {
             relations: ['images']
