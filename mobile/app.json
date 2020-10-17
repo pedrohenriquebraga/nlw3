@@ -23,7 +23,8 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "happy.apk"
+      "package": "com.gamesantos.happy",
+      "versionCode": 1
     }
   }
 }
