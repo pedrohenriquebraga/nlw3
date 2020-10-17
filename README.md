@@ -10,6 +10,7 @@ Foram usadas essa tecnologias:
 - [React Native](https://reactnative.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Yarn](https://yarnpkg.com/)
+- [Expo](https://expo.io/)
 
 *Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
@@ -28,4 +29,4 @@ Foram usadas essa tecnologias:
 - [x] **Dia 2:** Criando backend e banco de dados.
 - [x] **Dia 3:** Criando página de cadastro de orfanatos e finalizando projeto web.
 - [x] **Dia 4:** Iniciando Mobile App com mapa e rotas com React Native e Expo.
-- [ ] *Em breve!*
+- [x] **Dia 5:** Mobile App finalizado com listagem e cadastro de orfanatos.
